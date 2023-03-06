@@ -1,0 +1,4 @@
+SpringBoot -> looks prefix of application.properties File.
+Optional - You have 2 choice 1) .properties 2) .yml
+But you can only 1 File like properties File.
+The .yml File is structured file, as if you're writing real code .
