@@ -1,4 +1,4 @@
-package com.rouvsen.dto;
+package com.rouvsen.tutorials.dto;
 
 import java.util.Date;
 

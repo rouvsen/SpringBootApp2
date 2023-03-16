@@ -1,6 +1,6 @@
-package com.rouvsen.controller;
+package com.rouvsen.tutorials.controller;
 
-import com.rouvsen.dto.ProductDto;
+import com.rouvsen.tutorials.dto.ProductDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

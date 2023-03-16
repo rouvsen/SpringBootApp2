@@ -1,4 +1,4 @@
-package com.rouvsen.builderpattern;
+package com.rouvsen.tutorials.builderpattern;
 
 public class Main {
     public static void main(String[] args) {

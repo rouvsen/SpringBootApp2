@@ -1,6 +1,6 @@
-package com.rouvsen.bean;
+package com.rouvsen.tutorials.bean;
 
-import com.rouvsen.dto.BeanDto;
+import com.rouvsen.tutorials.dto.BeanDto;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
