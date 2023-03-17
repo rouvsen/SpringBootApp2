@@ -11,10 +11,10 @@ public interface EmployeeService {
 
     //CRUD
     List<EmployeeDto> getAllEmployees();
+    ResponseEntity<EmployeeDto> getEmployeeById(Long id);
     EmployeeDto createEmployee(EmployeeDto employeeDto);
-    ResponseEntity<EmployeeDto> getEmployeeById(Long id) throws Throwable;
-    ResponseEntity<EmployeeDto> updateEmployee(Long id, EmployeeDto employeeDto) throws Throwable;
-    ResponseEntity<Map<String, Boolean>> deleteEmployee(Long id) throws Throwable;
+    ResponseEntity<EmployeeDto> updateEmployee(Long id, EmployeeDto employeeDto);
+    ResponseEntity<Map<String, Boolean>> deleteEmployee(Long id);
 
     //Model Mapper
     EmployeeDto EntityToDto(EmployeeEntity employeeEntity);
